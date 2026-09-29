@@ -1,0 +1,14 @@
+{
+  "name": "lunamos",
+  "description": "Research skills by Lunamos, installable from GitHub.",
+  "owner": {
+    "name": "Lunamos"
+  },
+  "plugins": [
+    {
+      "name": "todestrieb",
+      "source": "./",
+      "description": "A drive for research: how to think, present, polish, review, and never stop pursuing."
+    }
+  ]
+}
