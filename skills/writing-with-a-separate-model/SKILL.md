@@ -20,6 +20,10 @@ user's taste choose.
   (`codex exec -m gpt-6-astra -c 'model_reasoning_effort="high"'`, or `"xhigh"`). It runs in its own working directory and
   session, sandboxed to that directory, inside tmux with a log. Later rounds resume the same session
   (`codex exec resume <id>`); a round that degrades is redone in a fresh session.
+- **Its skills.** The writing model needs writing skills of its own. Before the first round, check its skills folder
+  (`~/.codex/skills` for Codex) for paper writing, figure planning, anti-defensive writing, prose style and AI tells, and
+  claim and citation checks; install what is missing (the-drive, Other skills). The brief names the skills to load, in
+  order: structure and claims first, then posture (anti-defensive writing), then sentences (prose style, AI tells).
 - **The materials folder.** Give it a materials folder rather than the project:
   - the current draft, as a reference;
   - the exact data behind every figure, exported from the figure scripts;

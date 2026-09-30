@@ -10,7 +10,8 @@ These Claude Code skills hold the decisions and disciplines that make research g
   improve it;
 - when to let an idea go.
 
-Procedures such as LaTeX, plotting and submission are left to other skills.
+Procedures such as literature search, statistics, plotting and paper craft are left to other skills. The skills here tell the
+agent to load them at each stage, and to give a separate writing model its own.
 
 | Skill | Invoked by | Use it when |
 |---|---|---|
@@ -36,6 +37,28 @@ Or clone the repository and link the skills into your personal skills folder:
 ```bash
 git clone https://github.com/Lunamos/todestrieb.git
 ln -s "$PWD"/todestrieb/skills/* ~/.claude/skills/
+```
+
+## Companion skills
+
+These are well-maintained collections that fit the skills here. Take only the individual skills you need, and install them
+for both Claude Code and Codex.
+
+| Stage | Skills | Source |
+|---|---|---|
+| Mapping the field | `paper-lookup`, `huggingface-papers` | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills), [huggingface/skills](https://github.com/huggingface/skills) |
+| Experiments and statistics | `experimental-design`, `statistical-power`, `statistical-analysis` | K-Dense-AI/scientific-agent-skills |
+| Interpretability tools | `transformer-lens`, `nnsight`, `saelens`, `pyvene` | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |
+| Figures | `figure-planner`, `scientific-visualization`, `academic-plotting` | [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills), K-Dense, Orchestra |
+| Paper structure | `ml-paper-writing`, `research-paper-writing` | Orchestra, [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) |
+| Posture and prose | `anti-defensive-writing`, `scientific-prose-style`, `humanizer` | Boom5426/Nature-Paper-Skills, [blader/humanizer](https://github.com/blader/humanizer) |
+| Checks and review | `claim-source-verification`, `citation-verifier`, `citation-management`, `stats-reporting-audit`, `rebuttal-response` | Boom5426, K-Dense |
+
+With the GitHub CLI (2.9 or later), for example:
+
+```bash
+gh skill install Boom5426/Nature-Paper-Skills skills/core/anti-defensive-writing/SKILL.md --agent claude-code --scope user
+gh skill install Boom5426/Nature-Paper-Skills skills/core/anti-defensive-writing/SKILL.md --agent codex --scope user
 ```
 
 ## License

@@ -61,6 +61,28 @@ Persist while an idea has a live core, and let go when the core is gone.
 A clean ending with its lessons frees the effort for the next beginning. This is a judgment on the idea, made after fair
 attempts. It is not a shortcut around hard work.
 
+## Other skills
+
+Todestrieb holds the judgments; the procedures come from other skills. Using them is part of the discipline.
+
+- **Load the skills of each stage before working in it.** Look through the available skills, load the ones the stage needs,
+  and name them in the plan:
+
+  | Stage | Skills to look for |
+  |---|---|
+  | Mapping the field | literature and paper search, deep research |
+  | Designing experiments | experimental design, statistical power |
+  | Running and analyzing | the field's tools (e.g. interpretability libraries), statistical analysis |
+  | Figures | figure planning, scientific visualization |
+  | Writing and review | paper writing, anti-defensive writing, prose style and AI tells, claim and citation checks, rebuttal |
+
+- **Give other agents their skills.** A subagent or a separate model gets the skills its task needs: name them in its brief,
+  and make sure its host has them installed (for Codex, `~/.codex/skills`).
+- **When a needed skill is missing,** add a well-maintained one: widely used, recently updated, concrete rather than generic,
+  with a clear license. Take only the skills needed, never a whole catalog. Install it for every agent that will use it, and
+  tell the user what was added.
+- **Precedence.** When another skill conflicts with these judgments or with the user's decisions, these win.
+
 ## Roles
 
 - **The user** supplies the drive (curiosity, vision and taste) and makes the decisions.

@@ -24,6 +24,8 @@ Hypothesize boldly, verify carefully. A claim is strong when it meets four tests
   an independent replication, e.g. a system built from scratch, to see whether the account emerges on its own.
 - **Practice.** Carry the result to a real setting where it can matter in practice.
 
+Load the skills for experimental design, statistics and the field's tools before designing (the-drive, Other skills).
+
 ## Causal claims
 
 - **Use needs intervention.** Observations show what is present; interventions show what is used or what causes what. Base

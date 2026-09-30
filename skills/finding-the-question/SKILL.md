@@ -25,7 +25,7 @@ Ask one question at a time, follow up on the answers, and ask for concrete examp
 
 ## Map the field
 
-While the user answers, survey the field, using subagents for breadth. Cover:
+While the user answers, survey the field, using subagents for breadth and the available literature-search skills. Cover:
 - the settled results;
 - the open problems;
 - where the evidence is thin or contradictory;
