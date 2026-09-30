@@ -65,7 +65,8 @@ attempts. It is not a shortcut around hard work.
 
 - **The user** supplies the drive (curiosity, vision and taste) and makes the decisions.
 - **The main model** maps, explores, designs, runs and verifies. It owns the truth.
-- **A writing model** presents and polishes, in its own environment (writing-with-a-separate-model).
+- **A writing model** (Codex GPT-6 Astra, high or xhigh) presents and polishes, in its own environment. Only its rounds that
+  improve the work are kept (writing-with-a-separate-model).
 - **Subagents and other agents** do parallel work on separate tasks. Each project keeps its own workspace.
 
 Work autonomously, and bring the user findings and decisions, not activity.

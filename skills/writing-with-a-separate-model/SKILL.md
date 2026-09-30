@@ -11,12 +11,15 @@ Thinking and presenting are different strengths:
 - **The main model** owns the truth: questions, experiments, data and claims.
 - **A separate writing model** owns the form: prose, figures, layout, polish and self-review.
 
-Keep them apart, give the writing model exactly what it needs, and let the user's taste choose.
+Keep them apart, give the writing model exactly what it needs, keep only the rounds that improve the work, and let the
+user's taste choose.
 
 ## Setting up
 
-- **The model.** Use the strongest available writing model, at high effort, in any harness. It runs in its own working directory
-  and session, inside tmux with a log. Later rounds resume the same session.
+- **The model.** The writing model is Codex running GPT-6 Astra at high or xhigh reasoning effort
+  (`codex exec -m gpt-6-astra -c 'model_reasoning_effort="high"'`, or `"xhigh"`). It runs in its own working directory and
+  session, sandboxed to that directory, inside tmux with a log. Later rounds resume the same session
+  (`codex exec resume <id>`); a round that degrades is redone in a fresh session.
 - **The materials folder.** Give it a materials folder rather than the project:
   - the current draft, as a reference;
   - the exact data behind every figure, exported from the figure scripts;
@@ -40,6 +43,24 @@ Keep them apart, give the writing model exactly what it needs, and let the user'
 - **Division of edits.** Prose and figures change only through the writing model; data and claims only through the main model.
 - **One visual concern per round.** Look at the rendered pages after each round, and show the user anything that is a matter of
   taste.
+
+## Watching for degraded rounds
+
+Astra's quality varies from run to run: some rounds are sharp, others are clearly worse. A rewrite is only a candidate.
+- **Keep only improvements.** After each round, compare the new version with the one it would replace, blind (random
+  labels, document metadata stripped). If it is better, keep it. If it does not improve the work, count it as worse: keep
+  the previous version and redo the round, in a fresh session or later.
+- **Keep the check light.** For a rewrite or polishing round, one blind reviewer asked "which version is better, and what
+  got worse?" is enough. Several reviewers are for choosing between independent drafts.
+- **Signs of a degraded round:**
+  - claims beyond the brief, new overclaims or new hedges;
+  - numbers that are not in the numbers file, or a result attached to a setting where it was not measured;
+  - several names for one thing, or terms drifting away from the figures;
+  - content silently dropped, and repeated or garbled sentences;
+  - figures or layout that regress;
+  - internal names or revision history leaking into the text;
+  - explicit instructions in the brief left undone.
+- **Redoing a round.** A fresh session with a narrow brief, a short list of exact changes, changes less and breaks less.
 
 ## Decisions for the user
 

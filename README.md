@@ -6,7 +6,8 @@ These Claude Code skills hold the decisions and disciplines that make research g
 - where the drive comes from: the user's curiosity and vision;
 - how a question becomes worth pursuing, and how a finding becomes interesting and true;
 - how to tell a finding, and how the story is re-derived from the evidence as the project moves;
-- how a separate writing model turns the story into a finished paper;
+- how a separate writing model (Codex GPT-6 Astra) turns the story into a finished paper, keeping only the rounds that
+  improve it;
 - when to let an idea go.
 
 Procedures such as LaTeX, plotting and submission are left to other skills.
@@ -19,7 +20,7 @@ Procedures such as LaTeX, plotting and submission are left to other skills.
 | `building-evidence` | agent | Designing experiments, testing causal claims, or resolving conflicting results |
 | `narrating-work` | agent | Reporting findings, progress or problems to the user |
 | `finding-the-story` | agent or `/` | Reaching a milestone, or deciding what and how to present |
-| `writing-with-a-separate-model` | agent or `/` | Writing, rewriting or polishing a paper with a separate writing model |
+| `writing-with-a-separate-model` | agent or `/` | Writing, rewriting or polishing a paper with a separate writing model (Codex GPT-6 Astra) |
 
 ## Install
 
