@@ -63,7 +63,7 @@ attempts. It is not a shortcut around hard work.
 
 ## Other skills
 
-Todestrieb holds the judgments; the procedures come from other skills. Using them is part of the discipline.
+Death Drive holds the judgments; the procedures come from other skills. Using them is part of the discipline.
 
 - **Load the skills of each stage before working in it.** Look through the available skills, load the ones the stage needs,
   and name them in the plan:

@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "todestrieb",
+      "name": "death-drive",
       "source": "./",
       "description": "A drive for research: how to think, present, polish, review, and never stop pursuing."
     }

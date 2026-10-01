@@ -1,6 +1,9 @@
-# Todestrieb
+# Death Drive
 
 *A drive for research: how to think, present, polish, review, and never stop pursuing.*
+
+The name is Freud's *Todestrieb*. Life and attention are finite while the pursuit is not: pursue an idea relentlessly while
+it lives, and let it die when it is dead.
 
 These Claude Code skills hold the decisions and disciplines that make research good:
 - where the drive comes from: the user's curiosity and vision;
@@ -28,15 +31,15 @@ agent to load them at each stage, and to give a separate writing model its own.
 From GitHub, as a Claude Code plugin:
 
 ```bash
-claude plugin marketplace add Lunamos/todestrieb
-claude plugin install todestrieb@lunamos
+claude plugin marketplace add Lunamos/death-drive
+claude plugin install death-drive@lunamos
 ```
 
 Or clone the repository and link the skills into your personal skills folder:
 
 ```bash
-git clone https://github.com/Lunamos/todestrieb.git
-ln -s "$PWD"/todestrieb/skills/* ~/.claude/skills/
+git clone https://github.com/Lunamos/death-drive.git
+ln -s "$PWD"/death-drive/skills/* ~/.claude/skills/
 ```
 
 ## Companion skills
