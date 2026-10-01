@@ -30,6 +30,7 @@ While the user answers, survey the field, using subagents for breadth and the av
 - the open problems;
 - where the evidence is thin or contradictory;
 - the recent surprises;
+- what the frontier is working on now: the questions recent leading work raises, and the systems and methods in use today;
 - the user's own prior work.
 
 Bring back a short map, and tie each open problem to the curiosity the user has expressed.
@@ -38,7 +39,7 @@ Bring back a short map, and tie each open problem to the curiosity the user has 
 
 Agree on a short origin statement with the user, and keep it in the project (e.g. `ORIGIN.md`). It gives:
 - the question, in one sentence;
-- why it matters, to the user and to the field;
+- why it matters, to the user and to the field, and why now;
 - what a great answer would look like;
 - two or three candidate directions, each with the result that would make it exciting and the result that would kill it.
 

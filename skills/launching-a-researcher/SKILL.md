@@ -13,6 +13,8 @@ the claim. A goal that hands over a question and the user's curiosity leaves roo
 ## Choosing the project
 
 - **Survey with subagents.** For each candidate, find the idea, how far it got, why it stopped, the assets and what remains.
+- **Timely first.** Prefer questions that the field's frontier is asking now; a question whose moment has passed is a
+  weaker bet, however good.
 - **Revive the curiosity, not the frame.** A stalled project is revived for the question that made it worth starting. Its old
   claims and framing are hypotheses at most.
 - **The user chooses.** Present the candidates with a recommendation.
