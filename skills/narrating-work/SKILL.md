@@ -1,6 +1,6 @@
 ---
 name: narrating-work
-description: Use when reporting a finding, progress, a plan or a problem to the user, summarizing a project, or explaining the work to someone new to it
+description: Use when reporting a finding, progress, a plan or a problem to the user, summarizing a project, explaining the work to someone new to it, and at each turning point while the user is away
 user-invocable: false
 ---
 
@@ -36,6 +36,10 @@ means.
 
 - **During long work,** send a line on what is being done and why.
 - **For a problem or a mistake,** say what happened, its effect on the claims, and what was done about it.
+- **When the user is away,** send a self-contained report in their language at each turning point: an idea let go, a new story
+  version, a decisive result. The latest report alone is enough to catch up.
+- **Preliminary until checked.** A result is reported as finished only after the checks in building-evidence ("Before a result
+  counts as finished"); before that, it is called preliminary.
 
 ## Summarizing a whole project
 

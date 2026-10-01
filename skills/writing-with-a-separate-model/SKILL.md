@@ -33,13 +33,19 @@ user's taste choose.
   - the venue's style and writing guides.
 - **The brief** fixes what is not the writer's to change: the claims, the numbers and the user's decisions. It rules out data
   processing and new experiments.
+- **The writer's notes.** The brief asks the writer to keep `NOTES.md`: numbers or claims it wanted but could not find, and
+  disagreements between the materials. Read it each round as an audit of the materials.
 
 ## From scratch, then choose
 
 - **A new draft.** The writing model writes the whole paper anew rather than editing the old draft. It redraws every figure from
-  the exported data and checks its own rendered pages.
+  the exported data, the main figure by its own commission, and checks its own rendered pages.
 - **Blind reviews.** Reviewers read each version independently, and a separate agent compares them. The user sees both and
   chooses the lead version.
+- **A new story, a new telling.** When the story changes version, the next draft is a fresh telling; revision rounds only polish
+  a fixed story.
+- **The main figure, its own commission.** A panel-by-panel brief (each panel's claim, its data file, the real lead example)
+  goes to a separate session of the writing model.
 
 ## Polishing
 
@@ -56,7 +62,11 @@ Astra's quality varies from run to run: some rounds are sharp, others are clearl
   the previous version and redo the round, in a fresh session or later.
 - **Keep the check light.** For a rewrite or polishing round, one blind reviewer asked "which version is better, and what
   got worse?" is enough. Several reviewers are for choosing between independent drafts.
+- **Claim before accuracy.** The blind reviewer first states the paper's claim in one sentence and says whether it is
+  interesting; accuracy comes second. A more accurate round that loses the claim from the abstract is worse. Audit the numbers
+  in full once, on the final candidate.
 - **Signs of a degraded round:**
+  - the claim blurred, or gone from the abstract;
   - claims beyond the brief, new overclaims or new hedges;
   - numbers that are not in the numbers file, or a result attached to a setting where it was not measured;
   - several names for one thing, or terms drifting away from the figures;
@@ -73,3 +83,5 @@ These are the user's decisions:
 - which writing model to use;
 - the lead version;
 - anything that would need new experiments.
+
+When the user is away, choose the lead version by blind comparison, and report the choice with the alternatives.

@@ -1,6 +1,6 @@
 ---
 name: building-evidence
-description: Use when designing experiments, testing a hypothesis or causal claim, checking whether a result generalizes, or resolving results that conflict with each other or with prior work
+description: Use when designing experiments, testing a hypothesis or causal claim, checking whether a result generalizes, resolving results that conflict with each other or with prior work, and before calling a result finished
 user-invocable: false
 ---
 
@@ -24,6 +24,9 @@ Hypothesize boldly, verify carefully. A claim is strong when it meets four tests
   an independent replication, e.g. a system built from scratch, to see whether the account emerges on its own.
 - **Practice.** Carry the result to a real setting where it can matter in practice.
 
+- **Explore, then freeze.** Explore with cheap tests, each with its matched control, until a result surprises or kills the
+  idea; then freeze the design and the predictions to confirm it.
+
 Load the skills for experimental design, statistics and the field's tools before designing (the-drive, Other skills).
 
 ## Causal claims
@@ -39,8 +42,21 @@ Load the skills for experimental design, statistics and the field's tools before
 ## Predictions
 
 1. Turn the explanation into a rule for new cases.
-2. Commit the rule and the predicted values before testing.
+2. Before testing, commit the rule, the predicted values and the result that would kill the idea. Design the test so that
+   either outcome points to the next question.
 3. Report the hits and the misses.
+
+## Before a result counts as finished
+
+- **Measures.** Run each measure where its answer is known, and check it against blind labels made by reading raw cases, with
+  a second annotator for the key ones.
+- **Inputs.** Check on raw items that every item contains what the task needs, in the intended format and order; nothing
+  needed is dropped or truncated.
+- **Independent re-implementation.** An agent that has not seen the reported values recomputes the key numbers from raw files
+  with its own code.
+- **Matched control and replication.** A change of matched size on an unrelated target, and a replication on new items with a
+  new seed.
+- **Raw cases.** Read 10-20 raw cases behind each number a claim rests on. Numbers come only from finished runs.
 
 ## Records
 

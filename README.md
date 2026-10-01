@@ -11,7 +11,8 @@ These Claude Code skills hold the decisions and disciplines that make research g
 - how to tell a finding, and how the story is re-derived from the evidence as the project moves;
 - how a separate writing model (Codex GPT-6 Astra) turns the story into a finished paper, keeping only the rounds that
   improve it;
-- when to let an idea go.
+- when to let an idea go;
+- how to launch an autonomous researcher with a goal that leaves room for surprise.
 
 Procedures such as literature search, statistics, plotting and paper craft are left to other skills. The skills here tell the
 agent to load them at each stage, and to give a separate writing model its own.
@@ -25,6 +26,7 @@ agent to load them at each stage, and to give a separate writing model its own.
 | `narrating-work` | agent | Reporting findings, progress or problems to the user |
 | `finding-the-story` | agent or `/` | Reaching a milestone, or deciding what and how to present |
 | `writing-with-a-separate-model` | agent or `/` | Writing, rewriting or polishing a paper with a separate writing model (Codex GPT-6 Astra) |
+| `launching-a-researcher` | agent or `/` | Starting an autonomous research agent, writing its goal, or checking on running agents |
 
 ## Install
 

@@ -40,8 +40,18 @@ Agree on a short origin statement with the user, and keep it in the project (e.g
 - the question, in one sentence;
 - why it matters, to the user and to the field;
 - what a great answer would look like;
-- two or three candidate directions, each with the result that would make it exciting.
+- two or three candidate directions, each with the result that would make it exciting and the result that would kill it.
 
 Every later judgment is weighed against the origin (judging-interest), and letting go returns to it (the-drive). Candidate
 questions come from the map; the choice comes from the user. When the work drifts, or after an idea is let go, revisit the
 origin with the user.
+
+## When the user is away
+
+Draft the origin from what the user has written, tell the user in one message, and continue (the-drive, Roles).
+
+## When a claim is handed over
+
+A goal or earlier work may hand over a claim or a frame. The question is still the user's, in the user's words: write the handed
+claim beside two candidates that would surprise its author, and choose among them. When the user names an object of curiosity,
+study that object; methods and instruments are means.
