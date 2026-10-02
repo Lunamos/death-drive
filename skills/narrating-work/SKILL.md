@@ -26,11 +26,30 @@ means.
 
 ## Style
 
-- **Plain words.** Name things by what they do. Mention internal codes and file names only when asked.
+- **Plain words.** Name things by what they do, with the field's own terms (see Words). Mention internal codes and file
+  names only when asked.
 - **Few numbers.** One or two numbers carry the point, always with their baseline.
 - **Short first.** Give details on request.
 - **Language.** Write in the user's language.
 - **Confidence where earned.** State limits once, where they matter; no defensive hedging.
+
+## Words
+
+Clarity and plain, established words matter more than brevity. Repetition that helps the reader is fine.
+
+- **Use the field's words.** Name a thing with the term the field already uses for it. Coin a term only for something new
+  that the reader must refer to many times; define it in plain words where it first appears, and keep it unchanged.
+  - Noun stacks (three or more nouns in a row, such as "one-step binding gap") and project nicknames ("the relay band",
+    "the interloper law") are coined terms too. Say what they mean instead: "the accuracy lost when the prompt is read
+    only once".
+- **One word, one meaning; one meaning, one word.** Use the same name for the same thing everywhere: text, figures,
+  tables and reports. Do not vary terms for style, and do not use one word for two things.
+- **Say it in full.** Do not drop words to shorten a sentence: keep the subject, the verb, articles and "that". A sentence
+  the reader has to decode is not concise. In Chinese, keep the subject and the verb, and avoid clipped jargon.
+- **One point per sentence,** with a concrete subject and a clear verb. Prefer the active voice when it shows who does what.
+- **Clear references.** "This", "it" and "the effect" each need one obvious referent; when in doubt, repeat the noun.
+- **Clarity, not terseness or doubt.** These rules do not ask for shorter or more cautious text. Keep the explanation the
+  reader needs, and add no hedges (Confidence where earned).
 
 ## Progress
 

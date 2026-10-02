@@ -66,6 +66,8 @@ stay as they are.
 - **Numbers in the prose.** At most one key number per sentence in the abstract and introduction; intervals and details go to
   figures, tables and the appendix. A paper whose sentences each carry several statistics reads as a results log, and the
   idea gets lost. The brief says so.
+- **Words.** The field's established terms, one name per thing across text and figures, sentences said in full
+  (narrating-work, Words). Coined terms and noun stacks are replaced by what they mean. The brief says so.
 - **Look at the rendered pages** after each edit, and show the user anything that is a matter of taste.
 
 ## Watching for a degraded writer
@@ -92,6 +94,7 @@ Astra's quality varies from run to run. Check where it can do damage: the rewrit
   - claims beyond the brief, new overclaims or new hedges;
   - numbers that are not in the numbers file, or a result attached to a setting where it was not measured;
   - several names for one thing, or terms drifting away from the figures;
+  - new coined terms, noun stacks or project nicknames where the field has a plain term;
   - sentences carrying several numbers each;
   - content silently dropped, and repeated or garbled sentences;
   - figures growing denser (more panels, markers, annotations or text boxes), or layout that regresses;
