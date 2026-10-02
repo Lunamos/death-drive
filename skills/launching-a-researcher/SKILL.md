@@ -51,4 +51,5 @@ Give the agent the highest reasoning effort, its own session and its own workspa
 - **Judge with a fresh reader** (the-drive). When the work turns ordinary, say so and propose a reframe or a stop.
 - **Signs of drift:** the claim is the goal's own; interest checks name only gaps in defensibility; audits choose the
   experiments.
+- **Close finished sessions** (the-drive, "Close what you open"), and stop an agent when its project stops.
 - **The user decides** whether to continue, reframe or stop.

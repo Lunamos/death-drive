@@ -18,7 +18,8 @@ user's taste choose.
 
 - **The model.** The writing model is Codex running GPT-6 Astra at high or xhigh reasoning effort
   (`codex exec -m gpt-6-astra -c 'model_reasoning_effort="high"'`, or `"xhigh"`). It runs in its own working directory and
-  session, sandboxed to that directory, inside tmux with a log. Later rounds resume the same session
+  session, sandboxed to that directory, inside tmux with a log. The tmux session closes when the round ends; the writer's
+  session ID, kept in its directory, is enough to resume it. Later rounds resume the same session
   (`codex exec resume <id>`); a round that degrades is redone in a fresh session.
 - **Its skills.** The writing model needs writing skills of its own. Before the first round, check its skills folder
   (`~/.codex/skills` for Codex) for paper writing, figure planning, anti-defensive writing, prose style and AI tells, and

@@ -44,6 +44,9 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
   field but not the project gets the question and predicts the answer. Then it sees the one-sentence claim and the main figure,
   and says what it did not expect and whether it would cite the work. "Nothing" or "I expected that" means the work is
   ordinary: reframe it or recommend stopping.
+- **Close what you open.** Close a helper session, loop or process as soon as its work is done; keep one open only while
+  the user wants to step in. Record conversation IDs, so that closed sessions stay resumable. Sessions you did not start are
+  not yours to touch.
 - **Approval before release.** Anything that leaves the machine goes out only after the user approves what goes where.
 
 ## Letting go
