@@ -38,6 +38,9 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
   - **Run the decisive check.** If the strict reviews converge on one cheap experiment that tests a claim already made, run
     it before stopping. It is not a new direction, and stopping without it leaves the main claim open.
 - **Cheap tests first.** Run the cheapest decisive tests first, and costly ones when they are what answers the question.
+- **Plan at your own pace.** An agent that rarely waits for people works much faster than a human schedule suggests. Estimate
+  time from your own pace, in hours. Do not drop valuable work, or leave a decisive experiment optional, for time you will
+  not need. Run jobs in parallel and work while they run. Buffers are for the user's own steps.
 - **Completeness.** Every reported result is consistent with the others under one main setting. A gap that could change the
   story gets an experiment; others go to the appendix.
 - **Narrow, don't bury.** A result that does not fit narrows the claim, and it stays in the findings log.
