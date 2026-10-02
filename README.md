@@ -9,8 +9,8 @@ These Claude Code skills hold the decisions and disciplines that make research g
 - where the drive comes from: the user's curiosity and vision;
 - how a question becomes worth pursuing, and how a finding becomes interesting and true;
 - how to tell a finding, and how the story is re-derived from the evidence as the project moves;
-- how a separate writing model (Codex GPT-6 Astra) turns the story into a finished paper, keeping only the rounds that
-  improve it;
+- how a separate writing model (Codex GPT-6 Astra) turns the main model's draft into a finished paper: one rewrite, then
+  edits, with figures that stay;
 - when to let an idea go;
 - how to launch an autonomous researcher with a goal that leaves room for surprise.
 

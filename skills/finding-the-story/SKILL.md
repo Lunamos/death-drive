@@ -52,9 +52,9 @@ others can test. A milestone paper tells the next researcher where to go.
 
 ## Selecting the presentation
 
-- **Independent tellings.** They beat incremental edits:
-  1. A separate writing model tells the story from scratch (writing-with-a-separate-model).
-  2. Blind readers compare the versions.
-  3. The user's taste chooses.
+- **One telling, then edits.**
+  - The writing model rewrites the main model's draft once (writing-with-a-separate-model); later changes are edits to it.
+  - A new telling only when the story changes substantially, with the figure code inherited.
+  - The user's taste decides matters of taste.
 - **The final pass.** Before the final version, re-derive the story once more from the complete evidence, and align every number
   and setting with it.
