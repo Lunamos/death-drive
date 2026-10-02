@@ -30,6 +30,8 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
 
 - **Persist.** Keep going until the goal is met. Exploration is free; the goal is fixed. Letting a dead idea go is part of the
   pursuit, not the end of it.
+- **Finish what holds, then stop.** When a work is decent and its story holds, finish it, hand it to the user and stop. Open
+  no new direction within it unless the story collapses or the user asks; the next pursuit is chosen with the user.
 - **Cheap tests first.** Run the cheapest decisive tests first, and costly ones when they are what answers the question.
 - **Completeness.** Every reported result is consistent with the others under one main setting. A gap that could change the
   story gets an experiment; others go to the appendix.

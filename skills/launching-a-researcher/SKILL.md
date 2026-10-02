@@ -27,7 +27,8 @@ Keep the goal in a file in the project, and start the agent with a one-line poin
 - **No claim to confirm.** Leave out candidate claims and the experiments meant to prove them: they become the paper.
 - **The object of curiosity stays central.** When the user wants to understand an object, methods and instruments are means.
 - **Novelty.** Name the existing work, ours and others', that the agent should not continue.
-- **The stop condition.** "A result the user finds interesting, or a documented stop", never "a complete paper on X".
+- **The stop condition.** "A finished, decent work whose story holds, handed to the user; or a documented stop". It is
+  never "a complete paper on X", and new directions are opened only on the user's request.
 - **Light procedure.** Controls, datasheets and pre-registration serve a surprising claim (building-evidence, "Explore, then
   freeze"). Ask early for a note on what surprised the agent.
 - **Data as a first-class job,** when a project depends on data: the agent is expected to build it, not to shrink the question.
