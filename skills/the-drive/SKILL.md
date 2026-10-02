@@ -32,6 +32,11 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
   pursuit, not the end of it.
 - **Finish what holds, then stop.** When a work is decent and its story holds, finish it, hand it to the user and stop. Open
   no new direction within it unless the story collapses or the user asks; the next pursuit is chosen with the user.
+  - **A strict review comes first.** Before calling the work finished, a blind reviewer at area-chair level reads only the
+    paper, searches the literature and scores it by a top venue's standard. Checks that compare one version with another
+    cannot tell how the work stands against the field.
+  - **Run the decisive check.** If the strict reviews converge on one cheap experiment that tests a claim already made, run
+    it before stopping. It is not a new direction, and stopping without it leaves the main claim open.
 - **Cheap tests first.** Run the cheapest decisive tests first, and costly ones when they are what answers the question.
 - **Completeness.** Every reported result is consistent with the others under one main setting. A gap that could change the
   story gets an experiment; others go to the appendix.

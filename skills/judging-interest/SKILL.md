@@ -24,7 +24,7 @@ origin statement (finding-the-question): what the user wants to understand, and 
 | Mechanism | Do we know why? | Causal evidence with controls, and the same account supported by independent methods |
 | Prediction | Does the account predict new cases? | A rule stated in advance and confirmed on unseen cases |
 | Unification | Does it explain other phenomena or methods? | Several known results shown as instances of one principle |
-| Novelty | Is it new, both to the field and to our own earlier work? | A different question, not a variation on the last one; the closest works on the literature map are named, and the difference stated |
+| Novelty | Is it new, both to the field and to our own earlier work? | A different question, not a variation on the last one; the closest prior results (not just papers) are named, with what each already shows and what this work adds |
 | Milestone | Would it become a reference point? | The work people cite to explain the topic, and that changes how they approach it |
 | Influence | What will later work do because of it? | Methods, measurements or questions that others build on, and guidance for what to try next |
 

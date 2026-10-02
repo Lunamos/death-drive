@@ -55,10 +55,15 @@ stay as they are.
    - Anything added to a figure replaces something else, or goes to a table or the appendix.
 6. **Redo only for a new story.** A full rewrite happens only when the story changes substantially. Even then the plotting
    scripts are inherited.
+7. **A strict review before finishing.** Before the paper is called finished, a blind reviewer at area-chair level reads only
+   the PDF, searches the literature and scores it by a top venue's standard (the-drive, Finish what holds).
 
 ## Edits
 
 - **Division of edits.** Prose and figures change only through the writing model; data and claims only through the main model.
+- **Numbers in the prose.** At most one key number per sentence in the abstract and introduction; intervals and details go to
+  figures, tables and the appendix. A paper whose sentences each carry several statistics reads as a results log, and the
+  idea gets lost. The brief says so.
 - **Look at the rendered pages** after each edit, and show the user anything that is a matter of taste.
 
 ## Watching for a degraded writer
@@ -85,6 +90,7 @@ Astra's quality varies from run to run. Check where it can do damage: the rewrit
   - claims beyond the brief, new overclaims or new hedges;
   - numbers that are not in the numbers file, or a result attached to a setting where it was not measured;
   - several names for one thing, or terms drifting away from the figures;
+  - sentences carrying several numbers each;
   - content silently dropped, and repeated or garbled sentences;
   - figures growing denser (more panels, markers, annotations or text boxes), or layout that regresses;
   - internal names or revision history leaking into the text;
