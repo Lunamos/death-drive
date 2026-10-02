@@ -35,7 +35,9 @@ strongest evidence.
 
 5. **Claims and gaps.** List each claim of the arc with its evidence. Gaps become the next experiments. Claims the evidence does
    not support are narrowed.
-6. **The interest test.** Test the story against the origin with judging-interest. If it is ordinary, look for the reframing
+6. **The novelty check.** Check the claim with checking-novelty and update the novelty map. What prior results already show
+   is narrowed out of the claim or reframed, and the story states what is new against them.
+7. **The interest test.** Test the story against the origin with judging-interest. If it is ordinary, look for the reframing
    the evidence allows before writing more.
 
 ## Across milestones
@@ -56,5 +58,5 @@ others can test. A milestone paper tells the next researcher where to go.
   - The writing model rewrites the main model's draft once (writing-with-a-separate-model); later changes are edits to it.
   - A new telling only when the story changes substantially, with the figure code inherited.
   - The user's taste decides matters of taste.
-- **The final pass.** Before the final version, re-derive the story once more from the complete evidence, and align every number
-  and setting with it.
+- **The final pass.** Before the final version, re-derive the story once more from the complete evidence, run the full novelty
+  check (checking-novelty), and align every number and setting with it.

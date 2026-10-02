@@ -31,6 +31,7 @@ stay as they are.
   - the generated tables;
   - the numbers the text may use, each with its source;
   - the findings log;
+  - the novelty map (checking-novelty), so that the related work states differences result by result;
   - the venue's style and writing guides.
 - **The brief** fixes what is not the writer's to change: the claims, the numbers and the user's decisions. It rules out data
   processing and new experiments.
@@ -49,6 +50,7 @@ stay as they are.
 4. **Edit on top.**
    - Later changes are edits to the lead version, made by resuming the writer's session with a short brief: the user's
      decisions verbatim, then plain errors, then review advice.
+   - Each edit round names what it fixes. A round that would only reshuffle wording is skipped.
    - There are no further rewrites.
 5. **Figures inherit.**
    - Accepted figures are frozen. A figure changes only when a brief names it, and then by editing its plotting script.

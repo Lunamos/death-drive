@@ -31,7 +31,7 @@ origin statement (finding-the-question): what the user wants to understand, and 
 ## Using it
 
 - **Timeliness, surprise and novelty first.** Score them before the other qualities. A subagent maps what the frontier is
-  working on now, and searches prior work on the claim itself.
+  working on now; novelty is scored from the novelty check of the claim itself (checking-novelty).
 - **For a proposed direction,** state the one-sentence claim it could yield, the qualities it could reach, and its cost.
 - **For a new result,** state which qualities it raised, which are still missing, and the next step for the weakest one.
 - **When work is ordinary,** say so plainly, then reframe it before investing more. Typical reframes:

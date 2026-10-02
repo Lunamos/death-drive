@@ -33,7 +33,8 @@ While the user answers, survey the field, using subagents for breadth and the av
 - what the frontier is working on now: the questions recent leading work raises, and the systems and methods in use today;
 - the user's own prior work.
 
-Bring back a short map, and tie each open problem to the curiosity the user has expressed.
+Bring back a short map, and tie each open problem to the curiosity the user has expressed. Before a candidate direction goes
+into the origin, give it a quick novelty check (checking-novelty).
 
 ## The origin
 

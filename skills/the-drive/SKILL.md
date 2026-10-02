@@ -30,13 +30,28 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
 
 - **Persist.** Keep going until the goal is met. Exploration is free; the goal is fixed. Letting a dead idea go is part of the
   pursuit, not the end of it.
-- **Finish what holds, then stop.** When a work is decent and its story holds, finish it, hand it to the user and stop. Open
-  no new direction within it unless the story collapses or the user asks; the next pursuit is chosen with the user.
+- **Finish what holds, then stop.** One agent carries one paper.
+  - **When to stop.** Once the work is submittable, finish it, hand it to the user and stop. Submittable means the story
+    holds, the strict review and the decisive check are done, and a reasonable venue would accept it; a Findings-level
+    acceptance counts.
+  - **No new work on your own.** Do not start a new paper or direction on your own initiative, and do not keep polishing
+    past submittable. Open a new direction within the work only if its story collapses or the user asks; the next pursuit
+    is chosen with the user.
   - **A strict review comes first.** Before calling the work finished, a blind reviewer at area-chair level reads only the
-    paper, searches the literature and scores it by a top venue's standard. Checks that compare one version with another
-    cannot tell how the work stands against the field.
+    paper, checks novelty (checking-novelty) and scores it by a top venue's standard. Checks that compare one version with
+    another cannot tell how the work stands against the field.
   - **Run the decisive check.** If the strict reviews converge on one cheap experiment that tests a claim already made, run
     it before stopping. It is not a new direction, and stopping without it leaves the main claim open.
+- **Spend for information, not for motion.** Use tokens, subagents and compute generously wherever they buy information or
+  quality: parallel experiments, independent critics, fresh readers, broad searches, a writing model. Waste is spending that
+  cannot change anything:
+  - a subagent for what one file read or one command answers, or several subagents doing the same task;
+  - re-running a check, review or render whose result cannot change a decision;
+  - edit rounds without a named reason: wording changed back and forth, accepted work redone, a figure redrawn that nobody
+    asked to change. Name what an edit fixes before making it;
+  - polling instead of waiting on a signal, and reading a large output in full when a search or summary answers the question.
+
+  When a step stops adding anything, stop repeating it.
 - **Cheap tests first.** Run the cheapest decisive tests first, and costly ones when they are what answers the question.
 - **Plan at your own pace.** An agent that rarely waits for people works much faster than a human schedule suggests. Estimate
   time from your own pace, in hours. Do not drop valuable work, or leave a decisive experiment optional, for time you will
@@ -92,7 +107,7 @@ Death Drive holds the judgments; the procedures come from other skills. Using th
 
   | Stage | Skills to look for |
   |---|---|
-  | Mapping the field | literature and paper search, deep research |
+  | Mapping the field and novelty | checking-novelty (Death Drive), literature and paper search, deep research |
   | Designing experiments | experimental design, statistical power |
   | Running and analyzing | the field's tools (e.g. interpretability libraries), statistical analysis |
   | Figures | figure planning, scientific visualization |

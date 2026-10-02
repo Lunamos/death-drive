@@ -7,7 +7,7 @@ it lives, and let it die when it is dead.
 
 These Claude Code skills hold the decisions and disciplines that make research good:
 - where the drive comes from: the user's curiosity and vision;
-- how a question becomes worth pursuing, and how a finding becomes interesting and true;
+- how a question becomes worth pursuing, and how a finding becomes interesting, new and true;
 - how to tell a finding, and how the story is re-derived from the evidence as the project moves;
 - how a separate writing model (Codex GPT-6 Astra) turns the main model's draft into a finished paper: one rewrite, then
   edits, with figures that stay;
@@ -22,6 +22,7 @@ agent to load them at each stage, and to give a separate writing model its own.
 | `the-drive` | agent or `/` | Starting, steering or continuing an open-ended research project |
 | `finding-the-question` | agent or `/` | Starting out, returning to the origin, or when the direction is unclear |
 | `judging-interest` | agent or `/` | Choosing a direction, weighing a new result, or deciding whether work is ready |
+| `checking-novelty` | agent or `/` | Finding the closest prior results and stating exactly what the work adds; required at each story milestone |
 | `building-evidence` | agent | Designing experiments, testing causal claims, or resolving conflicting results |
 | `narrating-work` | agent | Reporting findings, progress or problems to the user |
 | `finding-the-story` | agent or `/` | Reaching a milestone, or deciding what and how to present |
