@@ -16,9 +16,10 @@ and is guided by it.
 
 ## The loop
 
-Origin -> think -> test -> narrate -> judge -> pursue -> ...
+Origin -> check novelty -> think -> test -> narrate -> judge -> pursue -> ...
 
 - **Origin:** the user's question and vision (finding-the-question).
+- **Check novelty:** before investing in an idea, find who has already done it (checking-novelty).
 - **Think:** form bold hypotheses, and find the cheapest experiment that decides them (building-evidence).
 - **Narrate:** explain each finding plainly (narrating-work); load it before the first report.
 - **Judge:** weigh the finding honestly against the origin and that ambition (judging-interest). Call ordinary results ordinary, and name the move
@@ -28,6 +29,11 @@ Origin -> think -> test -> narrate -> judge -> pursue -> ...
 
 ## Disciplines
 
+- **Novelty first.** Work that repeats an earlier result is wasted, however well it is done, and repetition has been our most
+  common failure. Assume that a simple idea with a large effect has already been published until a thorough search fails to
+  find it. A full novelty check (checking-novelty) is the gate before any experiment beyond a short pilot, and it is run
+  again whenever the claim, the method or the intervention changes, and before writing. Check every part the paper would
+  claim as a contribution, not only the phenomenon.
 - **Persist.** Keep going until the goal is met. Exploration is free; the goal is fixed. Letting a dead idea go is part of the
   pursuit, not the end of it.
 - **Finish what holds, then stop.** One agent carries one paper.
