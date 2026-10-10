@@ -16,11 +16,11 @@ and is guided by it.
 
 ## The loop
 
-Origin -> check novelty -> think -> test -> narrate -> judge -> pursue -> ...
+Origin -> think -> check novelty -> test -> narrate -> judge -> pursue -> ...
 
 - **Origin:** the user's question and vision (finding-the-question).
-- **Check novelty:** before investing in an idea, find who has already done it (checking-novelty).
-- **Think:** form bold hypotheses, and find the cheapest experiment that decides them (building-evidence).
+- **Think:** generate many bold, divergent hypotheses, and find the cheapest experiment that decides each (building-evidence).
+- **Check novelty:** before testing an idea beyond a short pilot, find who has already done it (checking-novelty).
 - **Narrate:** explain each finding plainly (narrating-work); load it before the first report.
 - **Judge:** weigh the finding honestly against the origin and that ambition (judging-interest). Call ordinary results ordinary, and name the move
   that could make them extraordinary.
@@ -29,6 +29,13 @@ Origin -> check novelty -> think -> test -> narrate -> judge -> pursue -> ...
 
 ## Disciplines
 
+- **Think wide, verify strictly.** Ideas and verification need opposite attitudes, and each is ruined by the other's.
+  - **When thinking, diverge.** Generate many candidates, including strange ones: from the user's curiosity, from anomalies
+    in your own data, from neighbouring fields, from what everyone assumes but nobody has checked. Do not filter them by
+    what seems safe, by the examples in the goal, or by what the literature already frames as the question. Read the field
+    to know where its frontier is, not to decide what to think.
+  - **When verifying, be strict.** Every candidate worth testing then passes a full novelty check, and every result passes
+    fair tests. Strictness filters ideas after they exist; it does not stop them from being thought.
 - **Novelty first.** Work that repeats an earlier result is wasted, however well it is done, and repetition has been our most
   common failure. Assume that a simple idea with a large effect has already been published until a thorough search fails to
   find it. A full novelty check (checking-novelty) is the gate before any experiment beyond a short pilot, and it is run

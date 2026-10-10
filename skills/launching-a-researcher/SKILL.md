@@ -24,6 +24,9 @@ the claim. A goal that hands over a question and the user's curiosity leaves roo
 Keep the goal in a file in the project, and start the agent with a one-line pointer to it.
 - **The question, in the user's words.** Quote the user verbatim. Inspiration is welcome; label it as a starting point, not a
   topic, and say that the agent may change direction.
+- **Room to diverge.** Keep the goal short. The binding parts are the resources and the rules; everything else is
+  inspiration. Do not fence the question with long lists of what to avoid, a prescribed procedure, or a bar so low that the
+  first submittable story ends the search.
 - **No claim to confirm.** Leave out candidate claims and the experiments meant to prove them: they become the paper.
 - **The object of curiosity stays central.** When the user wants to understand an object, methods and instruments are means.
 - **Novelty.** Name the existing work, ours and others', that the agent should not continue.
